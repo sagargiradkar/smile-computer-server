@@ -25,7 +25,7 @@ exports.resetPasswordToken = async (req, res) => {
 		);
 		console.log("DETAILS", updatedDetails);
 
-		const url = `https://studynotion.fun/update-password/${token}`;
+		const url = `https://smile-computer-server.vercel.app/update-password/${token}`;
 
 		await mailSender(
 			email,
